@@ -26,7 +26,7 @@ const Header = () => {
   };
   const pathname = useLocation();
   return (
-    <div className="fixed w-full top-0 z-50 lg:bg-n-8/90 lg:backdrop-blur-sm border-b border-n-6">
+    <div className="fixed w-full top-0 z-50 bg-black lg:bg-n-8/90 lg:backdrop-blur-sm border-b border-n-6">
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img

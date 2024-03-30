@@ -1,9 +1,13 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Benifits from "./components/Benifits";
 import Collaboration from "./components/Collaboration";
+import Footer from "./components/Footer";
 // import Button from "./components/Button";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Pricing from "./components/Pricing";
+import Roadmap from "./components/Roadmap";
+import Services from "./components/Services";
 function App() {
   return (
     <div>
@@ -11,7 +15,11 @@ function App() {
         <Header />
         <Hero />
         <Benifits />
-        <Collaboration/>
+        <Collaboration />
+        <Services />
+        <Pricing />
+        <Roadmap />
+        <Footer/>
       </div>
       <ButtonGradient />
     </div>
